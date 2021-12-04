@@ -1,0 +1,478 @@
+/* tamannho padrão para tablets*/
+
+@media only screen and (max-width: 768px) {
+    .col-md-4{
+        top: -25px;
+    }
+    nav ul {
+        display: ;
+    }
+    nav#menu ul{
+        list-style: none;
+        position: absolute;
+        left: 7px;
+        top: 5px;
+    }
+    #banner {
+        width: 100%;
+        height: 476px;
+        position: relative;
+        background-size: contain;
+        top: -84px;
+    }
+    #banner h1 {
+        transition: 1s;
+        color: black;
+        left: -275px;
+        top: 69px;
+        position: relative;
+        font-size: 120px;
+        text-shadow:2px 2px 2px rgba(0, 0, 0, .45);
+        font-family: 'krinkes-Regular';
+        margin-left: 500px;
+    }
+    #banner h1 small {
+        font-size: 130px;
+        display: block;
+        color: black;
+        font-family: 'Krinkes-Regular';
+
+    }
+    header #logotipo1{
+        display: none;
+    }
+    header #logotipo{
+        display: none;
+    }
+    section #novidades{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    header #logotipo1{
+        position: absolute;
+        top: 50px;
+        left: 775px;
+        width: 180px;
+        height: 200px;
+    }
+    header #logotipo {
+        position: absolute;
+        top: 50px;
+        left: 20px;
+        width: 180px;
+        height: 200px;
+    }
+}
+
+
+/* tamanho padrão para smartphones*/
+@media only screen and (max-width: 480px) {
+    nav ul {
+        display: none;
+
+    }
+    header {
+        background-color: transparent;
+    }
+    /*
+    header #menu-mobile {
+    position: fixed;
+    top: -2px;
+    background-color: #fff;
+    width: 80%;
+    left: 0px;
+    transition: 1s;
+    height: 100%;
+    z-index: 0;
+    text-align: center;
+    display: inline-grid;
+
+}
+    header  #menu-mobile #logotipo-2{
+    display: block;
+    position: relative;
+    top: 60px;
+    left: calc(40% - 58px);
+    width: 180px;
+    height: 200px;
+}
+
+    heaader  #menu-mobile-mask {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.5);
+    z-index: 1;
+}
+
+    header .open-menu{
+    left: 0;
+    margin: 20px;
+}
+
+
+
+    header #menu-mobile  li {
+    border-top: black 1px solid; 
+    margin-top: 28px;
+}
+    header #menu-mobile li:last-child{
+
+    border-bottom: black 1px solid;
+}
+
+    header #menu-mobile li a{
+    color: darkblue;
+    font-family: 'OpenSans';
+    font-weight: bold;
+    font-size: 19px;
+    display: block;
+    text-align: center;
+    margin-top: 19px;
+}
+    */
+
+
+
+    #banner {
+        width: 104%;
+    }
+    #banner {
+        height: 317px;
+        background-size: contain;
+        background-position: 0;
+        top: -101px;
+
+    }
+    #banner h1 {
+        transition: 1s;
+        color: black;
+        top: 60px;
+        position: relative;
+        font-size: 76px;
+        text-shadow:2px 2px 2px rgba(0, 0, 0, .45);
+        font-family: 'krinkes-Regular';
+        margin-left: 382px;
+
+    }
+    #banner h1 small {
+        font-size: 59px;
+        display: block;
+        color: black;
+        position: relative;
+        left: -42px;
+        font-family: 'Krinkes-Regular';
+
+
+    }
+
+    header ul {
+        display: none;
+    }
+    header .header-black {
+        position: fixed;
+        top: 15px;
+        width: 100%;
+        z-index: 9;
+    }
+    /*
+    header .header-black {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #171f26;
+    margin-top: 1px;
+    height: 45px;
+    z-index: 9;
+
+}
+    */
+    header #logotipo {
+        display: block;
+    }
+    header #logotipo1{
+        display: none;
+    }
+    section .row {
+        margin: 0;
+    }
+    #btn-bars, #btn-search {
+        color: white;
+        font-size: 22px;
+        position: absolute;
+        top: 3px;
+        background: none;
+        border: none;
+        display: block;
+        z-index: 4;
+    }
+    #btn-bars {
+        left: 4;
+    }
+    #btn-search {
+        right: 0;
+    }
+    #news h2 {
+        color: black;
+        font-family: 'Krinkes-Regular';
+        font-size: 48px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: -115px;
+    }
+    .cwl-carousel .owl-wrapper-outer{
+        margin-left: 15px;
+    }
+    .thumbnails{
+        text-align: center;
+    }
+    #news .thumbnails .item-inner img {
+        width: 67%;
+        position:;
+    }
+
+    #news .thumbnails h3 {
+        color: #bd2130;
+        font-size: 16px;
+        font-family: 'OpenSans';
+        text-align: center;
+        font-weight: bold;
+    }
+    #call-to-action h2 {
+        display: none;
+    }
+    #call-to-action p {
+        display: none;
+    }
+    #call-to-action .btn {
+        min-width: 162px;
+        height: 44px;
+        line-height: 33px;
+    }
+    #btn-news-next, #btn-news-prev {
+        position: absolute;
+        background: none;
+        border: none;
+        display: block;
+        font-size: 50px;
+        color: black;
+        top: 284px;
+        z-index: 4x;
+        outline; 0px;
+    }
+
+    #btn-news-next {
+        position: absolute;
+        right: 10px;
+        left: px;
+        display: none;
+    }
+    #btn-news-prev {
+        position: absolute;
+        left: 4px;
+        display: none;
+    }
+
+    .hidden-xs{
+        display: none;
+    }
+    footer {
+        margin-top: 57px;
+        margin-left: 16px;
+
+    }
+    .copyright-mobile p{
+        font-size: 10px;
+        line-height: 0;
+    }
+    footer .row p {
+        text-align: center;
+        line-height: 9px;
+    }
+    footer .stext-roxo {
+        margin-right: 20px;
+    }
+    footer .row p:first-child {
+        margin-top: 13px;
+    }
+    footer .row p:nth-child(2) {
+
+    }
+    footer .list-socials {
+        margin-top: 107px;
+        margin-left: 74px;
+        position: absolute;
+    }
+    footer .list-socials a{
+        width: 48px;
+        height: 48px;
+        border-radius: 24px;
+
+    }
+    footer .list-socials i{
+        font-size: 28px;
+        margin: 9px;
+    }
+    footer .btn-footer {
+        width: 100%;
+        background-color: #11171D;
+        height: 44px;
+        line-height: 35px;
+    }
+    .pull-left-1{
+        margin-left: -39px;
+    }
+    .pull-right-2 {
+        float: right;
+        margin-left: 82px;
+    }
+
+    #ms-xs {
+        display: inline-flex;
+        position: absolute;
+        margin-left: 58px;
+        margin-top: 22px;
+
+    }
+
+    #ms {
+        display: block;
+        position: relative;
+        margin-left: 0px;
+        margin-top: 226px;
+
+    }
+
+
+
+    header .bar-close {
+        display: block;
+    }
+    /*
+    header .bar-close {
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+}
+    header .bar-close .btn-close{
+    background: none;
+    border: nome;
+    color: brown;
+    font-size: 13px;
+}
+    */
+
+
+    header #menu-mobile {
+        position: fixed;
+        top: -5px;
+        text-align: center;
+        display: inline-block;
+        background-color: #fff;
+        width: 80%;
+        height: 100%;
+        left:-80%;
+        transition: 1s;
+        z-index: 5;
+    }
+    header.open-menu #menu-mobile {
+        left: 0;
+    }
+    header.open-menu #menu-mobile-mask {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0,.5);
+        z-index: 4;
+    }
+    /*
+    header.open-menu #logotipo {
+    position: fixed;
+    top: 50px;
+    height: 76px;
+    left: calc(40% - 33px);
+}
+    */
+
+
+    /*
+    header.open-menu #menu-mobile ul {
+    margin: 20px;
+    margin-top: 100px;
+}
+    */
+
+    header.open-menu #menu-mobile li {
+        text-align: center;
+        border-top: #CCC 1px solid;
+        list-style: none
+    }
+    header.open-menu #menu-mobile li:last-child {
+        border-bottom: #CCC 1px solid;
+    }
+    header.open-menu #menu-mobile li a {
+        color: black;
+        font-family: 'OpenSans';
+        font-weight: bold;
+        font-size: 16px;
+        padding: 18px;
+        display: block;
+    }
+    header.open-menu .bar-close {
+        position: absolute;
+        bottom: 40px;
+        background-color: black;
+        height: 40px;
+        width: 100%;
+    }
+    header.open-menu .bar-close .btn-close {
+        background:none;
+        border: none;
+        color: crimson;
+        font-size: 22px;
+    }
+    header #logotipo {
+        display: none;
+        left: 19%;
+        z-index: 10;		
+        transition: 1s;
+    }
+    header.open-menu #logotipo {
+        transform: rotate(360deg);
+        left: 66px;
+        display: block;
+    }
+
+    header.open-menu #menu-mobile  {
+        margin: 0;
+        margin-top: 47px;
+    }
+
+    header #input-search-mobile {
+        display: block;
+        transition: 1s;
+        top: -40px;
+        position: fixed;
+        width: 70%;
+        left: 15%;
+        background-color: white;
+        border: none;
+        height: 40px;
+        color: #fff;
+        outline: 0;
+    }
+    header.open-search #input-search-mobile {		
+        top: 0;
+    }
+
+
+
+
+}

@@ -1,0 +1,486 @@
+/* FONT FACE*/
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+    font-size: 1em;
+}
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url("../fonts/Open_Sans/OpenSans-Light.ttf");
+    font-size: 1em;
+}
+@font-face {
+    font-family: 'Krinkes-Regular';
+    src: url("../fonts/Krinkes/Krinkes-Regular.ttf");
+    font-size: 1em;
+}
+@font-face {
+    font-family: 'Krinkes-Decor';
+    src: url("../fonts/Krinkes/Krinkes-Decor.ttf");
+    font-size: 1em;
+}
+
+/* HEADER HEADER HEADER HEADER HEADER HEADER HEADER*/
+
+header {
+    width: 100%;
+    height: 90px;
+    background-color: skyblue;
+    z-index: 2;
+    position: relative;
+}
+header .container {
+    position: relative;
+}
+header .header-black{
+    background-color: #171f26;
+    margin-top: -16px;
+    height: 45px
+}
+header .list-unstyled li{
+    display: inline-block;
+
+}
+header .list-socials  li{
+
+    margin: 9px auto;
+}
+header .list-socials  li a{
+    display: block;
+    border: #666 1px solid;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 14px;
+    text-align: center;
+    display: inline-block;
+}
+header .list-socials i {
+    font-size: 18px;
+    margin: 0px auto;
+    color: #666
+}
+
+header #logotipo3 {
+    position: absolute;
+    top: 50px;
+    left: 70px;
+    width: 180px;
+    height: 200px;
+}
+
+header #logotipo4 {
+    position: absolute;
+    top: 50px;
+    left: 870px;
+    width: 180px;
+    height: 200px;
+    z-index: 7;
+}
+
+header .bar-close {
+    display: none;
+}
+header #menu-mobile {
+    display: none;
+}
+
+header #input-search-mobile{
+    display: none;
+}
+/* HEADER HEADER HEADER HEADER HEADER HEADER HEADER*/
+
+
+/* NAV NAV NAV NAV NAV NAV NAV NVA NVA NAV NAV NAV NAV NAV NAV */
+
+nav#menu {
+    display: block;
+}
+nav#menu ul{
+    list-style: none;
+    position: absolute;
+    left: 354px;
+    top: 5px;
+}
+nav#menu li{
+    display: inline-block;
+    right: 100px;
+    padding: 5px;
+    margin: 2px;
+}
+nav#menu li a{
+    color: black;
+    padding: 5px;      
+}
+nav#menu li.search.ativo{
+    width: 300px;
+}
+nav#menu li.search.ativo input{
+    width: 300px;
+}
+nav#menu li.search{
+    width: 182px;
+    transition-timing-function: cubic-bezier(1,-.91,.92,1);
+    transition-duration: 1s;
+}
+nav#menu li.search input{
+    background-color: cadetblue;
+    color: black;
+    border: none;
+    height: 29px;
+
+}
+#menu li.search ::-webkit-input-placeholder {
+    color: black;	
+}
+#menu li.search button {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+}
+nav#menu li.search button i {
+    font-size: 14px;
+    color: black;
+    background-color: transparent;
+}
+/* NAV NAV NAV NAV NAV NAV NAV NVA NVA NAV NAV NAV NAV NAV NAV */
+
+
+
+
+/* banner banner banner banner banner banner banner banner  banner */
+
+
+#banner {
+    width: 100%;
+    height: 530px;
+    position: relative;
+    background: url("../img/laptop.jpg") no-repeat;
+    top: 0px;
+    left: 1px;
+}
+
+#banner3{
+    widows: 100%;
+    height: 750px;
+    position:relative;
+    background: url("../img/400_BG.jpg") no-repeat;
+    top:-20px;
+    background-size: 100%;
+}
+#banner4{
+    widows: 100%;
+    height: 768px;
+    position:relative;
+    background: url("../img/Captura%20de%20Tela%20(22).png") no-repeat;
+    top:89px;
+    background-size: 100%;
+}
+#banner h1 {
+    transition: 1s;
+    color: black;
+    top: 130px;
+    position: relative;
+    font-size: 120px;
+    text-shadow:2px 2px 2px rgba(0, 0, 0, .45);
+    font-family: 'krinkes-Regular';
+    margin-left: 500px;
+}
+#banner h1 small {
+    font-size: 130px;
+    left: -118px;
+    position: relative;
+    display: block;
+    color: black;
+    font-family: 'Krinkes-Regular';
+
+}
+#banner3 h1 {
+    color: black;
+    top: 240px;
+    position: relative;
+    font-size: 51px;
+    text-shadow:2px 2px 2px rgba(0, 0, 0, .45);
+    margin-left: 560px;
+}
+
+
+/* Nossos Serviços Nossos Serviços Nossos Serviços Nossos Serviços Nossos Serviços Nossos ServiçosNossos Serviços */
+
+
+#news  h2{
+    color: black;
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*
+.col-md-12{
+border: 3px solid yellowgreen;
+}
+.col-md-4{
+border: 2px solid red;
+}
+.col-md-5{
+border: 3px solid yellowgreen;
+}
+.col-md-7{
+border: 2px solid red;
+}
+.col-xs-12{
+border: 2px solid red;
+}
+*/
+
+.img-fluid {
+    max-width: 100%;
+    position: relative;
+    height: 300px;
+}
+.img-fluid1 {
+    max-width: 100%;
+    position: relative;
+    height: 280px;
+}
+.img-fluid2 {
+    max-width: 100%;
+    position: relative;
+    height: 300px;
+}
+.img-fluid3 {
+    max-width: 100%;
+    position: relative;
+    height: 280px;
+}
+
+.img-fluid4 {
+    max-width: 100%;
+    position: relative;
+    height: 200px;
+}
+
+
+.img-fluid5 {
+    max-width: 100%;
+    position: relative;
+    height: 380px;
+}
+.img-fluid6 {
+    max-width: 100%;
+    position: relative;
+    height: 380px;
+}
+.img-fluid7 {
+    max-width: 100%;
+    position: relative;
+    height: 380px;
+}
+.img-fluid8 {
+    max-width: 100%;
+    position: relative;
+    height: 380px;
+}
+.img-fluid9 {
+    max-width: 100%;
+    position: relative;
+    height: 380px;
+}
+.img-fluid10 {
+    max-width: 100%;
+    position: relative;
+    height: 380px;
+}
+/*
+#news .container{
+border: 3px solid yellowgreen;
+top: 36px;
+
+}
+*/
+
+.div1 {
+    border: 2px solid red;
+    top: 1px;
+    height: auto;
+
+}
+#banner1{
+    max-width: 100%;
+    height: 530px;
+    position: relative;
+    background: url("../img/download.jpg") no-repeat;
+    top: 0px;
+    left: 1px;
+}
+
+
+/* call-to-action call-to-action call-to-action call-to-action call-to-action call-to-action */
+#call-to-action{
+    position: relative;
+    top: 30px;
+    text-align: center;
+    margin-top: 40px;
+}
+#call-to-action .col-xs-6{
+    display: inline-block;
+}
+#call-to-action .btn{
+    position: relative;
+    min-width: 164px;
+    height: 44px;
+    line-height: 33px;
+}
+#call-to-action .btn-roxo {
+    color: white;
+    background-color: brown;
+    border-color: blueviolet;
+}
+#call-to-action .btn-amarelo {
+    color: white;
+    background-color: brown;
+    border-color: darkorange;
+
+}
+
+
+
+
+
+
+
+
+/* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
+#ms-xs {
+    display: none;
+}
+footer{
+    margin-top: 90px
+}
+footer .row-ciza{
+    width: 100%; 
+
+}
+footer .row-cinza-claro{
+    height: 200px;
+    background-color: #171f26;
+
+
+}
+footer .row-cinza-escuro{
+    height: 60px;
+    background-color:#11171d;
+    border-top: #242d37 1px solid;
+}
+footer .pull-left {
+    color:#666;
+    font-family: 'OpenSans';
+    font-size: 14px;
+    line-height: 60px;
+}
+
+footer .pull-right {
+    color:#666;
+    font-family: 'OpenSans';
+    font-size: 14px;
+    line-height: 60px;
+
+}
+
+footer #logotipo1 {
+    position: absolute;
+    top: -2px;
+    left: -40px;
+    width: 180px;
+    height: 220px;
+}
+footer .col-md-10{
+    margin-top: 40px;
+}
+footer .col-popular-post
+footer .col-links
+footer .col-get-in-touch{
+
+}
+footer .row-cols h4{
+    font-family: 'OpenSans';
+    font-size: 16px;
+    color: white;
+    padding-bottom: 17px;
+    border-bottom: #242d37 1px solid;
+}
+footer .row-cols h5{
+    color: #666;
+    font-family: Arial;
+    font-size: 14px;
+}
+footer .row-cols time{
+    color: #fde092;
+    font-family: Arial;
+    font-size: 14px;
+}
+footer .col-links ul{
+    list-style: none;
+    margin-left: -39px;
+}
+footer .col-links a{
+    color: white;
+    font-family: Arial;
+    font-size: 14px;
+}
+footer .col-links .fa{
+    margin: 0 6px;
+}
+footer .col-get-in-touch address {
+    color: #666;
+    font-family: Arial;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+footer .col-get-in-touch i{
+    color: #9b9b9b;
+    font-size: 25px;
+}
+footer .col-get-in-touch p{
+    line-height: 20px;
+}
+footer .list-socials{
+    margin-top: -8px;
+
+}
+footer .list-unstyled li{
+    display: inline-block;
+
+}
+footer .list-socials a{
+    display: block;
+    border: #666 1px solid;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 14px;
+    text-align: center;
+    display: inline-block;
+
+}
+
+footer .list-socials i {
+    font-size: 16px;
+    margin: 7px auto;
+}
+#btn-bars, #btn-search{
+    display: none;
+}
+/* CADASTRO CADASTRO CADASTRO CADASTRO CADASTRO CADASTRO CADASTRO CADASTRO CADASTRO CADASTRO*/
+.bg-color{
+    background-color: #f7f8f9;
+}
+.for-cadastro{
+    height: 100vh;
+}
+.area-form{
+    height: 70vh;
+}

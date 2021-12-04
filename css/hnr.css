@@ -1,0 +1,467 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+    font-size: 1em;
+}
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url("../fonts/Open_Sans/OpenSans-Light.ttf");
+    font-size: 1em;
+}
+@font-face {
+    font-family: 'Krinkes-Regular';
+    src: url("../fonts/Krinkes/Krinkes-Regular.ttf");
+    font-size: 1em;
+}
+@font-face {
+    font-family: 'Krinkes-Decor';
+    src: url("../fonts/Krinkes/Krinkes-Decor.ttf");
+    font-size: 1em;
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    background-color: skyblue;
+    z-index: 2;
+    position: relative;
+}
+header .container {
+    position: relative;
+}
+header .header-black{
+    background-color: #171f26;
+    margin-top: -16px;
+    height: 45px
+}
+header .list-unstyled li{
+    display: inline-block;
+
+}
+header .list-socials  li{
+
+    margin: 9px auto;
+}
+header .list-socials  li a{
+    display: block;
+    border: #666 1px solid;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 14px;
+    text-align: center;
+    display: inline-block;
+}
+header .list-socials i {
+    font-size: 18px;
+    margin: 0px auto;
+    color: #666
+}
+
+header #logotipo {
+    position: absolute;
+    top: 50px;
+    left: 70px;
+    width: 180px;
+    height: 200px;
+    background-color:;
+}
+
+header #logotipo1 {
+    position: absolute;
+    top: 50px;
+    left: 870px;
+    width: 180px;
+    height: 200px;
+    background-color:;
+    z-index: 7;
+}
+header.open-menu #menu-mobile #logotipo2{
+    display:none;
+}
+
+nav#menu {
+    display: block;
+}
+nav#menu ul{
+    list-style: none;
+    position: absolute;
+    left: 250px;
+    top: 5px;
+}
+nav#menu li{
+    display: inline-block;
+    right: 100px;
+    padding: 5px;
+    margin: 2px;
+}
+nav#menu li a{
+    color: black;
+    padding: 5px;      
+}
+nav#menu li.search.ativo{
+    width: 300px;
+}
+nav#menu li.search.ativo input{
+    width: 300px;
+}
+nav#menu li.search{
+    width: 182px;
+    transition-timing-function: cubic-bezier(1,-.91,.92,1);
+    transition-duration: 1s;
+}
+nav#menu li.search input{
+    background-color: cadetblue;
+    color: black;
+    border: none;
+    height: 29px;
+
+}
+#menu li.search ::-webkit-input-placeholder {
+    color: black;	
+}
+#menu li.search button {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+}
+nav#menu li.search button i {
+    font-size: 14px;
+    color: black;
+    background-color: transparent;
+}
+#banner .efeito{
+    color: indigo;
+    font-size: 12em;
+}
+#banner {
+    width: 100%;
+    height: 566px;
+    position: relative;
+    background: url("../img/banner-principal.png") no-repeat;
+    top: 0px;
+}
+#banner h1 {
+    transition: 1s;
+    color: black;
+    top: 130px;
+    position: relative;
+    font-size: 120px;
+    text-shadow:2px 2px 2px rgba(0, 0, 0, .45);
+    font-family: 'krinkes-Regular';
+    margin-left: 500px;
+}
+#banner h1 small {
+    font-size: 130px;
+    display: block;
+    color: black;
+    font-family: 'Krinkes-Regular';
+
+}
+#news  h2{
+    color: black;
+    font-family: 'Krinkes-Regular';
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+}
+#newws
+#news .thumbnails{
+    margin-top: 20px;
+    left: -10px;
+    display: block;
+}
+#news .item{
+    width: 100%;
+    margin-left: 10px;
+}
+#news .thumbnails h3{
+    color: currentColor;
+    font-size: 16px;
+    font-family: 'OpenSans';
+    text-align: center;
+    font-weight: bold;
+}
+#news .thumbnails time{
+    color: brown;
+    font-size: 16px;
+    font-family: 'OpenSans'; 
+}
+
+#news .thumbnails .item-inner {
+    padding: 20px;
+}
+#news .thumbnails .item-inner img{
+    width: 100%;
+    height: 250px;
+}
+
+#novidades {
+    background-color: darkslategrey;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    margin-top: 30px;
+}
+#novidades p{
+    color: black;
+    text-transform: uppercase;
+    font-family: 'OpenSans-Light';
+    font-size: 50px;
+    margin-top: 60px
+}
+#novidades p small{
+    color: brown;
+    font-size: 24px;
+    display: block;
+}
+#call-to-action{
+    text-align: center;
+    margin-top: 40px;
+}
+
+#call-to-action  h2{
+    color: black;
+    font-family: 'Krinkes-Regular';
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+}
+#call-to-action p{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: darkred;
+}
+#call-to-action .col-xs-6{
+    display: inline-block;
+}
+#call-to-action .btn{
+    min-width: 164px;
+    height: 44px;
+    line-height: 33px;
+}
+#call-to-action .btn-roxo {
+    color: white;
+    background-color: blueviolet;
+    border-color: blueviolet;
+}
+#call-to-action .btn-amarelo {
+    color: white;
+    background-color: darkgoldenrod;
+    border-color: darkorange;
+
+}
+#call-to-action .row-max-400{
+    margin: 0 auto;
+    max-width: 400px;
+}
+footer{
+    margin-top: 90px
+}
+footer .row-ciza{
+    width: 100%; 
+
+}
+footer .row-cinza-claro{
+    height: 200px;
+    background-color: #171f26;
+
+
+}
+footer .row-cinza-escuro{
+    height: 60px;
+    background-color:#11171d;
+    border-top: #242d37 1px solid;
+}
+footer .pull-left {
+    color:#666;
+    font-family: 'OpenSans';
+    font-size: 14px;
+    line-height: 60px;
+}
+footer .pull-right {
+    color: #623291;
+    font-family: 'OpenSans';
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 60px;
+}
+
+footer #logotipo1 {
+    position: absolute;
+    top: -2px;
+    left: -40px;
+    width: 180px;
+    height: 220px;
+}
+footer .col-md-10{
+    margin-top: 40px;
+}
+footer .col-popular-post
+footer .col-links
+footer .col-get-in-touch{
+
+}
+footer .row-cols h4{
+    font-family: 'OpenSans';
+    font-size: 16px;
+    color: white;
+    padding-bottom: 17px;
+    border-bottom: #242d37 1px solid;
+}
+footer .row-cols h5{
+    color: #666;
+    font-family: Arial;
+    font-size: 14px;
+}
+footer .row-cols time{
+    color: #fde092;
+    font-family: Arial;
+    font-size: 14px;
+}
+footer .col-links ul{
+    list-style: none;
+    margin-left: -39px;
+}
+footer .col-links a{
+    color: white;
+    font-family: Arial;
+    font-size: 14px;
+}
+footer .col-links .fa{
+    margin: 0 6px;
+}
+footer .col-get-in-touch address {
+    color: #666;
+    font-family: Arial;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+footer .col-get-in-touch i{
+    color: #9b9b9b;
+    font-size: 25px;
+}
+footer .col-get-in-touch p{
+    line-height: 20px;
+}
+footer .list-socials{
+    margin-top: -8px;
+
+}
+footer .list-unstyled li{
+    display: inline-block;
+
+}
+footer .list-socials a{
+    display: block;
+    border: #666 1px solid;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 14px;
+    text-align: center;
+    display: inline-block;
+
+}
+footer .list-socials i {
+    font-size: 16px;
+    margin: 7px auto;
+}
+#btn-bars, #btn-search{
+    display: none;
+}
+
+#btn-news-prev, #btn-news-next{
+    display:none;
+}
+#ms-xs {
+    display: none;
+}
+header .bar-close {
+    display: none;
+}
+header #menu-mobile {
+    display: none;
+}
+
+header #input-search-mobile{
+    display: none;
+}
+/* camisas.php */
+
+#promocoes .box-promocao {
+	background-color: #6E3EA4;
+	width: 100%;
+	height: 150px;
+	position: relative;
+	color: #fff;
+	text-align: center;
+}
+#promocoes .box-promocao.box-1 {
+	font-family: arial;
+	font-size: 15px;
+    font-weight: bold;
+    padding: 7px;
+}
+#promocoes .box-promocao.box-1 p {
+	position: absolute;
+	top: 58px;
+}
+#promocoes .box-promocao .text-ate {
+	font-size: 20px;
+    font-weight: bold;
+    font-family: arial;
+    position: absolute;
+    left: 15px;
+    top: 5px;
+}
+#promocoes .box-promocao .text-numero {
+	font-size: 128px;
+	font-family: 'OpenSans-Light';
+	position: absolute;
+    top: -10px;
+    left: 15px;
+}
+#promocoes .box-promocao .text-porcento {
+	font-size: 64px;
+    font-family: 'OpenSans';
+    position: absolute;
+    top: 15px;
+    right: 1px;
+}
+#promocoes .box-promocao .text-off {
+	font-size: 42px;
+    font-family: 'OpenSans-Light';
+    position: absolute;
+    top: 78px;
+    right: 3px;
+}
+.box-produto-info a {
+	text-decoration: none;
+}
+.box-produto-info h3 {
+	font-size: 12px;
+	font-family: arial;
+	color: #666;
+}
+.box-produto-info .produto-img {
+	width: 100%;
+}
+.box-produto-info .text-valor {
+	font-size: 26px;
+	font-weight: bold;
+}
+.title-default-roxo h2 {
+	color: #5E2799;
+    font-family: 'OpenSans-Light';
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.title-default-roxo hr {
+	border: #FDE192 solid 8px;
+    width: 200px;
+    margin: 0 auto;
+}
